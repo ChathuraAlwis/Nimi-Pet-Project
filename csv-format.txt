@@ -1,0 +1,14 @@
+Employee ID - Numeric
+Employee Name - String
+Month of Payment - Numeric
+Year of Payment - Numeric
+Total Salary - Decimal
+EPF - Decimal
+ETF - Decimal
+Tax Deductions - Decimal
+Other Deductions - Decimal
+Net Salary - Decimal
+
+
+
+Note: Net Salary is equals to (Total salary - (EPF + ETF + Tax Deductions + Other Deductions))
