@@ -1,6 +1,6 @@
 module.exports = function(row, row_number){
     let str_arr = row.split(',');
-    const row_length = str_arr.length
+    const row_length = str_arr.length   // number of comma seperated data
 
     // compulsory data
     const record = {
