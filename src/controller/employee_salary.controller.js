@@ -7,7 +7,6 @@ const salary_PDF_service = require('../services/salary-pdf.service')
 const uploadCSV = async(req, res) => {
     try {
         console.log("Uploading CSV...")
-        /* csv file validation */
         const files = req.files
         file_verify_util(files) // will throw error if caught
         const csv_file = files.csv_file.data.toString('utf8') // select file using file key(csv_file)

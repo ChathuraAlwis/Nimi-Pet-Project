@@ -8,5 +8,6 @@ const port = server.port
 const routes = require('./route/routes')
 app.use('/employee_salary', routes)
 
+// listen
 app.listen(port, () => console.log(`Server started listening on port ${port}!`))
 

@@ -6,8 +6,8 @@ exports.createPDF = function(empData, dataCallback, endCallback){
     const dataX = 220
     const doc = new PDFDocument();
 
-    doc.on('data', dataCallback);
-    doc.on('end', endCallback);
+    doc.on('data', dataCallback);   // when data is available
+    doc.on('end', endCallback);     // end of data
 
     doc
     .fontSize(27)

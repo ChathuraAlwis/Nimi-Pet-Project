@@ -43,6 +43,7 @@ router.get('/month/:month/:year', getMonth) // List data by month/year
 
 
 // salary PDF download
+
 router.get('/download/:id', downloadSalaryPDF) // download salary pdf by employee_salary.id column
 
 
